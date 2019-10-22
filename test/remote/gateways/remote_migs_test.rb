@@ -25,12 +25,12 @@ class RemoteMigsTest < Test::Unit::TestCase
     }
 
     @three_ds_options = {
-      :VerType => '3DS',
-      :VerToken => 'AAACAFBEUBgoAhEAIURQAAAAAAA=',
-      '3DSXID' => 'NWJlZDJmYzkyMTU1NGEwNzk1YjA=',
-      '3DSECI' => '02',
-      '3DSenrolled' => 'Y',
-      '3DSstatus' => 'A'
+      :ver_type => '3DS',
+      :ver_token => 'AAACAFBEUBgoAhEAIURQAAAAAAA=',
+      :three_ds_xid => 'NWJlZDJmYzkyMTU1NGEwNzk1YjA=',
+      :three_ds_eci => '02',
+      :three_ds_enrolled => 'Y',
+      :three_ds_status => 'A'
     }
   end
 

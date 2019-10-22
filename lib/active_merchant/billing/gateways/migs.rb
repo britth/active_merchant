@@ -239,10 +239,10 @@ module ActiveMerchant #:nodoc:
       def add_3ds(post, options)
         post[:VerType] = options[:ver_type] if options[:ver_type]
         post[:VerToken] = options[:ver_token] if options[:ver_token]
-        post['3DSXID'] = options[:three_ds_xid] if options[:three_ds_xid]
-        post['3DSECI'] = options[:three_ds_eci] if options[:three_ds_eci]
-        post['3DSenrolled'] = options[:three_ds_enrolled] if options[:three_ds_enrolled]
-        post['3DSstatus'] = options[:three_ds_status] if options[:three_ds_status]
+        post[:'3DSXID'] = options[:three_ds_xid] if options[:three_ds_xid]
+        post[:'3DSECI'] = options[:three_ds_eci] if options[:three_ds_eci]
+        post[:'3DSenrolled'] = options[:three_ds_enrolled] if options[:three_ds_enrolled]
+        post[:'3DSstatus'] = options[:three_ds_status] if options[:three_ds_status]
       end
 
       def add_tx_source(post, options)
